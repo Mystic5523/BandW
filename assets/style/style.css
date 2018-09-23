@@ -1,0 +1,50 @@
+main {
+  max-width: 960px;
+  background: #44E5E7;
+  padding: 2em;
+  border: 2px;
+  margin-bottom: 5em;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: .75;
+  text-align: center;
+  color: #1e1e1a;
+}
+
+body {
+  background-color: #8a4308;
+  background-image: url("../images/purty-wood.png");
+}
+
+.navbar {
+  background-color: #62acd8;
+  background-image: url("../images/tileable-wood.png");
+  color: #1e1e1a;
+}
+
+.navbar #remodel:hover {
+  color: #d15440;
+}
+
+.navbar #maint:hover {
+  color: #a5a1a1;
+}
+
+.navbar #lawn:hover {
+  color: #7dd68b;
+}
+
+.navbar #house:hover {
+  color: #ebebeb;
+}
+
+.pimg1 {
+  background-image: url("../images/bigpic.jpg");
+  min-height: 400px;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+/*# sourceMappingURL=style.css.map */

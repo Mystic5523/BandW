@@ -1,0 +1,96 @@
+$colors: (
+    primary: #62acd8,
+    remodel: #d15440,
+    lawn: #7dd68b,
+    maint: #a5a1a1,
+    house: #ebebeb,
+    text: #1e1e1a,
+);
+
+@function color($color-name) {
+    @return map-get($colors, $color-name)
+};
+
+$phone: 500px;
+$tablet: 760px;
+$desktop: 840px;
+$widescreen: 1100px;
+
+@mixin phone {
+    @media (max-width: #{$phone}) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media (max-width: #{$tablet}) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (min-width: #{$desktop}) {
+        @content;
+    }
+}
+
+@mixin widescreen {
+    @media (min-width:#{$widescreen}) {
+        @content;
+    }
+}
+
+
+main {
+    max-width: 960px;
+    background: #44E5E7;
+    padding: 2em;
+    border: 2px;
+    margin-bottom: 5em;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: .75;
+    text-align: center;
+    color: color(text)
+    ;
+}
+
+body {
+    background-color: #8a4308;
+    // background-color: ghostwhite;
+    background-image: url("../images/purty-wood.png");
+
+}
+
+.navbar {
+    background-color: color(primary);
+    background-image: url("../images/tileable-wood.png");
+    color: color(text);
+
+    #remodel:hover {
+        color: color(remodel);
+    }
+
+    #maint:hover {
+        color: color(maint);
+    }
+
+    #lawn:hover {
+        color: color(lawn);
+    }
+
+    #house:hover {
+        color: color(house);
+    }
+}
+
+.pimg1{
+    background-image:url("../images/bigpic.jpg");
+    min-height: 400px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
