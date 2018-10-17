@@ -17,29 +17,88 @@ body {
 }
 
 .navbar {
-  background-color: #62acd8;
   background-image: url("../images/tileable-wood.png");
   color: #1e1e1a;
 }
 
 .navbar #remodel:hover {
-  color: #d15440;
+  background-color: #d15440;
 }
 
 .navbar #maint:hover {
-  color: #a5a1a1;
+  background-color: #a5a1a1;
 }
 
 .navbar #lawn:hover {
-  color: #7dd68b;
+  background-color: #7dd68b;
 }
 
 .navbar #house:hover {
-  color: #ebebeb;
+  background-color: #ebebeb;
+}
+
+.mainnav {
+  background-color: #62acd8;
+}
+
+.remnav {
+  background-color: #d15440;
+}
+
+.manav {
+  background-color: #a5a1a1;
+}
+
+.honav {
+  background-color: #ebebeb;
+}
+
+.lawnav {
+  background-color: #7dd68b;
 }
 
 .pimg1 {
   background-image: url("../images/bigpic.jpg");
+  min-height: 400px;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.remimg {
+  background-image: url("../images/remodel.jpg");
+  min-height: 400px;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.maintimg {
+  background-image: url("../images/maint.jpg");
+  min-height: 400px;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.hoimg {
+  background-image: url("../images/Tile.jpg");
+  min-height: 400px;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.lawnimg {
+  background-image: url("../images/lawn.jpg");
   min-height: 400px;
   position: relative;
   background-position: center;

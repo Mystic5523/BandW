@@ -51,8 +51,7 @@ main {
     margin-right: auto;
     opacity: .75;
     text-align: center;
-    color: color(text)
-    ;
+    color: color(text);
 }
 
 body {
@@ -63,28 +62,47 @@ body {
 }
 
 .navbar {
-    background-color: color(primary);
     background-image: url("../images/tileable-wood.png");
     color: color(text);
 
     #remodel:hover {
-        color: color(remodel);
+        background-color: color(remodel);
     }
 
     #maint:hover {
-        color: color(maint);
+        background-color: color(maint);
     }
 
     #lawn:hover {
-        color: color(lawn);
+        background-color: color(lawn);
     }
 
     #house:hover {
-        color: color(house);
+        background-color: color(house);
     }
 }
 
-.pimg1{
+.mainnav {
+    background-color: color(primary);
+}
+
+.remnav {
+    background-color: color(remodel);
+}
+
+.manav {
+    background-color: color(maint);
+}
+
+.honav {
+    background-color: color(house);
+}
+
+.lawnav {
+    background-color: color(lawn);
+}
+
+.pimg1 {
     background-image:url("../images/bigpic.jpg");
     min-height: 400px;
     position: relative;
@@ -94,7 +112,43 @@ body {
     background-attachment: fixed;
 }
 
-.remodelnav {
-    background-color: color(remodel)
+.remimg {
+    background-image:url("../images/remodel.jpg");
+    min-height: 400px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.maintimg {
+    background-image:url("../images/maint.jpg");
+    min-height: 400px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.hoimg {
+    background-image:url("../images/Tile.jpg");
+    min-height: 400px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.lawnimg {
+    background-image:url("../images/lawn.jpg");
+    min-height: 400px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
